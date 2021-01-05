@@ -1,0 +1,99 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+label, input 
+{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    outline: none;
+    font-size: 13pt;
+}
+
+form
+{
+    width: 330px;
+    background-color: rgba(0,0,0,.2);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+input[type="submit"]
+{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#esquerda
+{
+    width: 35%;
+
+    float: left;
+}
+
+#direita
+{
+    width: 65%;
+    float: right;
+}
+
+table
+{
+    background-color: rgba(0,0,0,.2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr
+{
+    line-height: 30px;
+}
+
+tr#titulo
+{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+td
+{
+    padding: 0px 5px;   
+}
+
+a
+{
+    background-color: white ;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-emphasis: none;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.aviso 
+{
+    width: 90%;
+    height: 50px;
+    margin: 30px auto 0px auto;
+}
+img
+{
+    width: 50px;
+    display:block;
+    float: left;
+    /*background-size: cover;*/
+}
+h4
+{
+    float: left;
+    line-height: 50px;
+}
